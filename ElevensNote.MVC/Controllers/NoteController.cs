@@ -14,7 +14,7 @@ namespace ElevensNote.MVC.Controllers
         public ActionResult Index()
         {
             var model = new NoteListItem[0];
-            return View();
+            return View(model);
         }
 
         public ActionResult Create()
